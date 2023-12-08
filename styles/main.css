@@ -1,0 +1,109 @@
+body {
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+body .container {
+  padding: 0 20px;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+body button {
+  color: #050424;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  display: flex;
+  width: 280px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: none;
+}
+
+.background {
+  background-color: #112152;
+}
+.background .header-tel {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 10px;
+}
+.background .header-tel .connection {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+.background .header-tel .connection p {
+  color: #fff;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.background .header-tel .connection p a {
+  text-decoration: none;
+  color: #fff;
+  padding-left: 16px;
+}
+.background .header-tel .connection button {
+  background: #fff;
+}
+
+.main {
+  position: relative;
+  margin-bottom: 8px;
+}
+.main nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+.main nav a {
+  text-decoration: none;
+  color: #050424;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.main .main-info {
+  padding-top: 120px;
+  background-image: url("/images/bus.png");
+  background-repeat: no-repeat;
+  background-position: right top -20%;
+}
+.main .main-info h1 {
+  color: #050424;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 1.28px;
+}
+.main .main-info h1 span {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0.8px;
+}
+.main .main-info h1::before {
+  content: "";
+  position: absolute;
+  height: 216px;
+  top: 135px;
+  right: 333px;
+  width: 5987px;
+  background-color: #fae12c;
+  z-index: -1;
+}
+.main .main-info p {
+  width: 457px;
+  color: #050424;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0.64px;
+  margin: 64px 0 64px;
+  line-height: normal;
+}
+.main .main-info button {
+  background: #fae12c;
+}/*# sourceMappingURL=main.css.map */
