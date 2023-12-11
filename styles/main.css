@@ -19,6 +19,7 @@ body button {
   align-items: center;
   border-radius: 30px;
   border: none;
+  cursor: pointer;
 }
 
 .background {
@@ -68,12 +69,12 @@ body button {
 }
 .main .main-info {
   padding-top: 120px;
-  background-image: url("/images/bus.png");
+  background-image: url("/images/bus.svg");
   background-repeat: no-repeat;
   background-position: right top -20%;
 }
 .main .main-info h1 {
-  color: #050424;
+  color: #112152;
   font-size: 64px;
   font-weight: 700;
   line-height: 80px;
@@ -97,7 +98,7 @@ body button {
 }
 .main .main-info p {
   width: 457px;
-  color: #050424;
+  color: #112152;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 0.64px;
@@ -106,4 +107,52 @@ body button {
 }
 .main .main-info button {
   background: #fae12c;
+}
+
+.cooperation {
+  margin: 160px 0;
+}
+.cooperation h2 {
+  color: #112152;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+.cooperation h3 {
+  color: #112152;
+  text-align: center;
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0.8px;
+  padding: 100px 0 48px;
+}
+.cooperation .steps {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.cooperation .steps .step {
+  max-width: 282px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  gap: 32px;
+}
+.cooperation .steps .step p {
+  text-align: center;
+  color: #050424;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.cooperation button {
+  background: #fae12c;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */

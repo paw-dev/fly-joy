@@ -50,11 +50,11 @@
 
   .main-info {
     padding-top: 120px;
-    background-image: url("/images/bus.png");
+    background-image: url("/images/bus.svg");
     background-repeat: no-repeat;
     background-position: right top -20%;
     h1 {
-      color: $dark-color;
+      color: $dark-blue;
       font-size: 64px;
       font-weight: 700;
       line-height: 80px;
@@ -79,7 +79,7 @@
     }
     p {
       width: 457px;
-      color: $dark-color;
+      color: $dark-blue;
       font-size: 32px;
       font-weight: 500;
       letter-spacing: 0.64px;

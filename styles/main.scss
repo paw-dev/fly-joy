@@ -1,3 +1,56 @@
 @import "fonts";
 @import "common";
 @import "header";
+
+.cooperation {
+  margin: 160px 0;
+
+  h2 {
+    color: $dark-blue;
+    text-align: center;
+    font-family: $font;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+  }
+
+  h3 {
+    color: $dark-blue;
+    text-align: center;
+    font-family: $font;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.8px;
+    padding: 100px 0 48px;
+  }
+
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+
+    .step {
+      max-width: 282px;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: flex-start;
+      justify-content: center;
+      gap: 32px;
+
+      p {
+        text-align: center;
+        color: #050424;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+  button {
+    background: #fae12c;
+    margin: 0 auto;
+  }
+}
