@@ -145,7 +145,8 @@
 
       .number {
         position: absolute;
-        top: -70px;
+        top: -30px;
+        left: -25px;
       }
 
       h3 {
@@ -166,6 +167,101 @@
         font-style: normal;
         font-weight: 400;
         line-height: 28px;
+      }
+    }
+  }
+}
+
+.connect {
+  background-color: $dark-blue;
+  padding: 100px 0;
+  background-image: url(/images/stars.svg);
+
+  h2 {
+    color: #fae12c;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.8px;
+    text-align: center;
+  }
+
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+    margin: 34px 0 64px;
+  }
+
+  .form {
+    background-color: #fff;
+    padding: 64px 80px;
+    border-radius: 30px;
+    max-width: 996px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    h3 {
+      color: #000;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 48px;
+      text-align: center;
+    }
+
+    p {
+      color: $dark-blue;
+      text-align: center;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: center;
+      margin: 0 0 36px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      input,
+      textarea {
+        border-radius: 30px;
+        border: 3px solid #fae12c;
+        background: #fffdf0;
+        padding: 15px 42px 15px 36px;
+        color: #747474;
+        font-family: Jost;
+        font-size: 20px;
+        line-height: 28px;
+      }
+
+      textarea {
+        resize: none;
+      }
+
+      label {
+        color: $dark-blue;
+        line-height: 28px;
+      }
+
+      .submit {
+        background: #ffeb5c;
+        color: $dark-color;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        border: none;
+        padding: 20px 0;
       }
     }
   }
