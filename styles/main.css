@@ -212,4 +212,51 @@ body button {
   font-weight: 400;
   line-height: 28px;
   padding: 24px;
+}
+
+.advantages {
+  margin: 160px 0 160px;
+}
+.advantages h2 {
+  color: #050424;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.advantages .advantages-items {
+  display: flex;
+  justify-content: space-evenly;
+}
+.advantages .advantages-items .advantage {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.advantages .advantages-items .advantage .number {
+  position: absolute;
+  top: -70px;
+}
+.advantages .advantages-items .advantage h3 {
+  color: #050424;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+  margin-bottom: 36px;
+}
+.advantages .advantages-items .advantage p {
+  color: #112152;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
 }/*# sourceMappingURL=main.css.map */

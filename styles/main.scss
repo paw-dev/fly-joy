@@ -117,3 +117,56 @@
     }
   }
 }
+
+.advantages {
+  margin: 160px 0 160px;
+
+  h2 {
+    color: $dark-color;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 64px;
+  }
+
+  .advantages-items {
+    display: flex;
+    justify-content: space-evenly;
+
+    .advantage {
+      max-width: 460px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+
+      .number {
+        position: absolute;
+        top: -70px;
+      }
+
+      h3 {
+        color: $dark-color;
+        text-align: center;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.64px;
+        margin-bottom: 36px;
+      }
+
+      p {
+        color: $dark-blue;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+    }
+  }
+}
