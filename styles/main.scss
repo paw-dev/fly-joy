@@ -266,3 +266,66 @@
     }
   }
 }
+
+.faq {
+  padding: 100px 0;
+
+  h2 {
+    color: $dark-color;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .questions {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+
+    .question {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 100px;
+
+      h3 {
+        color: $dark-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        margin-bottom: 24px;
+        position: relative;
+      }
+
+      h3::before {
+        background-color: #fae12c;
+        content: "";
+        margin: 0 auto;
+        position: absolute;
+        top: -70%;
+        right: 15%;
+        width: 539px;
+        height: 68px;
+        z-index: -1;
+      }
+
+      p {
+        color: $dark-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        max-width: 540px;
+      }
+    }
+
+    .reverse {
+      flex-direction: row-reverse;
+    }
+  }
+}

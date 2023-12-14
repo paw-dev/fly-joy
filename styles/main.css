@@ -345,4 +345,60 @@ body button {
   line-height: 24px;
   border: none;
   padding: 20px 0;
+}
+
+.faq {
+  padding: 100px 0;
+}
+.faq h2 {
+  color: #050424;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.faq .questions {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.faq .questions .question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+.faq .questions .question h3 {
+  color: #050424;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  margin-bottom: 24px;
+  position: relative;
+}
+.faq .questions .question h3::before {
+  background-color: #fae12c;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: -70%;
+  right: 15%;
+  width: 539px;
+  height: 68px;
+  z-index: -1;
+}
+.faq .questions .question p {
+  color: #050424;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  max-width: 540px;
+}
+.faq .questions .reverse {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=main.css.map */
