@@ -14,7 +14,6 @@ body button {
   color: #050424;
   font-size: 16px;
   font-weight: 700;
-  line-height: 24px;
   display: flex;
   width: 280px;
   height: 64px;
@@ -23,6 +22,13 @@ body button {
   border-radius: 30px;
   border: none;
   cursor: pointer;
+}
+body p {
+  font-size: 20px;
+  line-height: 28px;
+}
+body a {
+  text-decoration: none;
 }
 
 .header-tel {
@@ -37,13 +43,8 @@ body button {
 }
 .header-tel .connection p {
   color: #fff;
-  font-family: "Jost", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 28px;
 }
 .header-tel .connection p a {
-  text-decoration: none;
   color: #fff;
   padding-left: 16px;
 }
@@ -51,42 +52,41 @@ body button {
   background: #fff;
 }
 
-.main {
+.header {
   position: relative;
   margin-bottom: 8px;
 }
-.main nav {
+.header nav {
   display: flex;
   justify-content: space-between;
   padding-top: 16px;
 }
-.main nav a {
-  text-decoration: none;
+.header nav a {
   color: #050424;
   font-size: 20px;
-  font-weight: 400;
   line-height: 28px;
 }
-.main .main-info {
+.header .header-info {
   padding-top: 120px;
   background-image: url("/images/bus.svg");
   background-repeat: no-repeat;
-  background-position: right top -20%;
+  background-position-x: right;
+  background-position-y: bottom;
 }
-.main .main-info h1 {
+.header .header-info h1 {
   color: #112152;
   font-size: 64px;
   font-weight: 700;
   line-height: 80px;
   letter-spacing: 1.28px;
 }
-.main .main-info h1 span {
+.header .header-info h1 span {
   font-size: 40px;
   font-weight: 600;
   line-height: 64px;
   letter-spacing: 0.8px;
 }
-.main .main-info h1::before {
+.header .header-info h1::before {
   content: "";
   position: absolute;
   height: 216px;
@@ -96,16 +96,16 @@ body button {
   background-color: #fae12c;
   z-index: -1;
 }
-.main .main-info p {
+.header .header-info p {
+  color: #050424;
   width: 457px;
-  color: #112152;
   font-size: 32px;
   font-weight: 500;
   letter-spacing: 0.64px;
   margin: 64px 0 64px;
   line-height: normal;
 }
-.main .main-info button {
+.header .header-info button {
   background: #fae12c;
 }
 
@@ -146,13 +146,12 @@ body button {
 }
 .footer .info nav a {
   color: #fff;
-  font-family: Jost;
+  font-family: "Jost", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   letter-spacing: 0.48px;
-  text-decoration: none;
 }
 .footer .info .social {
   display: flex;
@@ -160,35 +159,24 @@ body button {
   gap: 28px;
   margin-right: 134px;
 }
-.footer span {
+.footer p {
   color: #fff;
-  text-align: center;
   font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  margin: 0 auto;
 }
 
 .cooperation {
   margin: 160px 0;
+  text-align: center;
 }
 .cooperation h2 {
   color: #112152;
-  text-align: center;
-  font-family: "Jost", sans-serif;
   font-size: 48px;
-  font-style: normal;
   font-weight: 600;
   line-height: 64px;
 }
 .cooperation h3 {
   color: #112152;
-  text-align: center;
-  font-family: "Jost", sans-serif;
   font-size: 40px;
-  font-style: normal;
   font-weight: 600;
   line-height: 64px;
   letter-spacing: 0.8px;
@@ -210,8 +198,6 @@ body button {
 .cooperation .steps .step p {
   text-align: center;
   color: #050424;
-  font-size: 20px;
-  font-weight: 400;
   line-height: 28px;
 }
 .cooperation button {
@@ -220,7 +206,6 @@ body button {
 }
 
 .background-benefits-cooperation {
-  background-color: #112152;
   background-image: url(/images/Ellipse.png);
   background-repeat: no-repeat;
   background-position-x: center;
@@ -232,7 +217,6 @@ body button {
 .background-benefits-cooperation .benefits-cooperation h2 {
   color: #fff;
   font-size: 40px;
-  font-style: normal;
   font-weight: 600;
   line-height: 64px;
   letter-spacing: 0.8px;
@@ -244,9 +228,9 @@ body button {
   justify-content: space-evenly;
 }
 .background-benefits-cooperation .benefits-cooperation .benefits .benefit {
+  background: #112152;
   max-width: 236px;
   border-radius: 20px;
-  background: #112152;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-wrap: wrap;
@@ -261,7 +245,6 @@ body button {
   color: #fff;
   text-align: center;
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
   line-height: 28px;
   padding-top: 82px;
@@ -269,10 +252,6 @@ body button {
 .background-benefits-cooperation .benefits-cooperation .benefits .benefit p {
   color: #fff;
   text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
   padding: 24px;
 }
 
@@ -282,7 +261,6 @@ body button {
 .advantages h2 {
   color: #050424;
   font-size: 40px;
-  font-style: normal;
   font-weight: 600;
   line-height: 64px;
   letter-spacing: 0.8px;
@@ -318,14 +296,9 @@ body button {
 .advantages .advantages-items .advantage p {
   color: #112152;
   text-align: center;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
 }
 
 .connect {
-  background-color: #112152;
   padding: 100px 0;
   background-image: url(/images/stars.svg);
 }
@@ -366,11 +339,8 @@ body button {
   text-align: center;
 }
 .connect .form p {
-  color: #112152;
-  text-align: center;
+  color: #050424;
   font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 28px;
   text-align: center;
   margin: 0 0 36px;
@@ -387,7 +357,7 @@ body button {
   background: #fffdf0;
   padding: 15px 42px 15px 36px;
   color: #747474;
-  font-family: Jost;
+  font-family: "Jost", sans-serif;
   font-size: 20px;
   line-height: 28px;
 }
@@ -399,7 +369,7 @@ body button {
   line-height: 28px;
 }
 .connect .form form .submit {
-  background: #ffeb5c;
+  background: #fae12c;
   color: #050424;
   font-size: 16px;
   font-style: normal;
@@ -455,10 +425,6 @@ body button {
 }
 .faq .questions .question p {
   color: #050424;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
   max-width: 540px;
 }
 .faq .questions .reverse {

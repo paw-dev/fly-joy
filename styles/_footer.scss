@@ -14,8 +14,8 @@
 
       h2 {
         margin-bottom: 70px;
-        color: #fff;
-        font-family: Playfair Display;
+        color: $white-color;
+        font-family: $logo-font;
         font-size: 24px;
         font-style: normal;
         font-weight: 700;
@@ -28,7 +28,7 @@
       }
 
       button {
-        background: #fae12c;
+        background: $yellow-color;
       }
     }
 
@@ -38,14 +38,13 @@
       gap: 36px;
 
       a {
-        color: #fff;
-        font-family: Jost;
+        color: $white-color;
+        font-family: $main-font;
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
         letter-spacing: 0.48px;
-        text-decoration: none;
       }
     }
 
@@ -57,14 +56,8 @@
     }
   }
 
-  span {
-    color: #fff;
-    text-align: center;
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 28px;
-    margin: 0 auto;
+  p {
+    color: $white-color;
+    font-family: $copyright-font;
   }
 }

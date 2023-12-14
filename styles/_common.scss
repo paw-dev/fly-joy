@@ -1,7 +1,6 @@
 body {
   box-sizing: border-box;
-  font-family: $font;
-  // max-width: 1480px;
+  font-family: $main-font;
 
   .background {
     background-color: $dark-blue;
@@ -18,15 +17,22 @@ body {
     color: $dark-color;
     font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
     display: flex;
     width: 280px;
     height: 64px;
-    // padding: 14px 46px;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     border: none;
     cursor: pointer;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  a {
+    text-decoration: none;
   }
 }

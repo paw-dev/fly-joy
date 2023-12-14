@@ -10,13 +10,8 @@
 
     p {
       color: $white-color;
-      font-family: $font;
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 28px;
 
       a {
-        text-decoration: none;
         color: $white-color;
         padding-left: 16px;
       }
@@ -27,7 +22,7 @@
   }
 }
 
-.main {
+.header {
   position: relative;
   margin-bottom: 8px;
   nav {
@@ -36,19 +31,19 @@
     padding-top: 16px;
 
     a {
-      text-decoration: none;
       color: $dark-color;
       font-size: 20px;
-      font-weight: 400;
       line-height: 28px;
     }
   }
 
-  .main-info {
+  .header-info {
     padding-top: 120px;
     background-image: url("/images/bus.svg");
     background-repeat: no-repeat;
-    background-position: right top -20%;
+    background-position-x: right;
+    background-position-y: bottom;
+
     h1 {
       color: $dark-blue;
       font-size: 64px;
@@ -70,12 +65,13 @@
       top: 135px;
       right: 333px;
       width: 5987px;
-      background-color: #fae12c;
+      background-color: $yellow-color;
       z-index: -1;
     }
+
     p {
+      color: $dark-color;
       width: 457px;
-      color: $dark-blue;
       font-size: 32px;
       font-weight: 500;
       letter-spacing: 0.64px;
@@ -83,7 +79,7 @@
       line-height: normal;
     }
     button {
-      background: #fae12c;
+      background: $yellow-color;
     }
   }
 }
