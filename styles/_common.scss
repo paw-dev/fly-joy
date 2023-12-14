@@ -3,6 +3,10 @@ body {
   font-family: $font;
   // max-width: 1480px;
 
+  .background {
+    background-color: $dark-blue;
+  }
+
   .container {
     // padding: 0 calc(10.7% - 20px);
     padding: 0 20px;
