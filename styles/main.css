@@ -1,6 +1,6 @@
 body {
   box-sizing: border-box;
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 body .background {
   background-color: #112152;
@@ -24,7 +24,7 @@ body button {
   cursor: pointer;
 }
 body p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 28px;
 }
 body a {
@@ -71,7 +71,7 @@ body a {
   background-image: url("../images/bus.svg");
   background-repeat: no-repeat;
   background-position-x: right;
-  background-position-y: bottom;
+  background-position-y: 25px;
 }
 .header .header-info h1 {
   color: #112152;
@@ -99,7 +99,7 @@ body a {
 .header .header-info p {
   color: #050424;
   width: 457px;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 500;
   letter-spacing: 0.64px;
   margin: 64px 0 64px;
@@ -126,7 +126,7 @@ body a {
 .footer .info .logo-button h2 {
   margin-bottom: 70px;
   color: #fff;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
@@ -146,7 +146,7 @@ body a {
 }
 .footer .info nav a {
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -161,7 +161,7 @@ body a {
 }
 .footer p {
   color: #fff;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
 }
 
 .cooperation {
@@ -314,7 +314,7 @@ body a {
 .connect p {
   color: #fff;
   text-align: center;
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -357,7 +357,7 @@ body a {
   background: #fffdf0;
   padding: 15px 42px 15px 36px;
   color: #747474;
-  font-family: "Jost", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   line-height: 28px;
 }

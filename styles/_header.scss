@@ -42,7 +42,7 @@
     background-image: url("../images/bus.svg");
     background-repeat: no-repeat;
     background-position-x: right;
-    background-position-y: bottom;
+    background-position-y: 25px;
 
     h1 {
       color: $dark-blue;
@@ -72,7 +72,7 @@
     p {
       color: $dark-color;
       width: 457px;
-      font-size: 32px;
+      font-size: 30px;
       font-weight: 500;
       letter-spacing: 0.64px;
       margin: 64px 0 64px;
