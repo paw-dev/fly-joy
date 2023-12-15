@@ -68,7 +68,7 @@ body a {
 }
 .header .header-info {
   padding-top: 120px;
-  background-image: url("./images/bus.svg");
+  background-image: url("../images/bus.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
@@ -206,7 +206,7 @@ body a {
 }
 
 .background-benefits-cooperation {
-  background-image: url(./images/Ellipse.png);
+  background-image: url(../images/Ellipse.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: -18%;
@@ -300,7 +300,7 @@ body a {
 
 .connect {
   padding: 100px 0;
-  background-image: url(./images/stars.svg);
+  background-image: url(../images/stars.svg);
 }
 .connect h2 {
   color: #fae12c;
