@@ -27,7 +27,9 @@
 
   .steps {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
     margin-bottom: 80px;
 
     .step {
@@ -74,7 +76,10 @@
     .benefits {
       padding-top: 218px;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-evenly;
+      row-gap: 90px;
+
       .benefit {
         background: $dark-blue;
         max-width: 236px;
@@ -126,6 +131,7 @@
 
   .advantages-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 
     .advantage {
@@ -276,6 +282,7 @@
 
     .question {
       display: flex;
+      flex-wrap: wrap;
       align-items: center;
       justify-content: center;
       gap: 100px;

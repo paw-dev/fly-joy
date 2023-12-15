@@ -34,17 +34,27 @@ body a {
 .header-tel {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 0 10px;
+  gap: 20px;
 }
 .header-tel .connection {
   display: flex;
   align-items: center;
   gap: 36px;
 }
-.header-tel .connection p {
-  color: #fff;
+.header-tel .connection .tel-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
 }
-.header-tel .connection p a {
+.header-tel .connection .tel-numbers p {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.header-tel .connection .tel-numbers p a {
   color: #fff;
   padding-left: 16px;
 }
@@ -109,6 +119,11 @@ body a {
   background: #fae12c;
 }
 
+@media screen and (max-width: 875px) {
+  .header-tel .connection p {
+    justify-content: center;
+  }
+}
 .footer {
   padding: 66px 0 46px;
   text-align: center;
@@ -184,7 +199,8 @@ body a {
 }
 .cooperation .steps {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
   margin-bottom: 80px;
 }
 .cooperation .steps .step {
@@ -225,7 +241,9 @@ body a {
 .background-benefits-cooperation .benefits-cooperation .benefits {
   padding-top: 218px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
+  row-gap: 90px;
 }
 .background-benefits-cooperation .benefits-cooperation .benefits .benefit {
   background: #112152;
@@ -269,6 +287,7 @@ body a {
 }
 .advantages .advantages-items {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .advantages .advantages-items .advantage {
@@ -399,6 +418,7 @@ body a {
 }
 .faq .questions .question {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 100px;
