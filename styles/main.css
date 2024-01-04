@@ -31,6 +31,24 @@ body a {
   text-decoration: none;
 }
 
+@media (max-width: 560px) {
+  body .container {
+    padding: 0 16px;
+    max-width: 560px;
+  }
+  body header .background {
+    background-color: #fae12c;
+  }
+  body button {
+    font-size: 14px;
+    height: 36px;
+    margin: 0 auto;
+  }
+  body p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
 .header-tel {
   display: flex;
   justify-content: space-between;
@@ -45,6 +63,7 @@ body a {
 }
 .header-tel .connection .tel-numbers {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   row-gap: 10px;
 }
@@ -119,9 +138,84 @@ body a {
   background: #fae12c;
 }
 
+@media screen and (max-width: 1270px) {
+  .header .header-info {
+    background-size: 45%;
+    background-position-y: center;
+  }
+  .header .header-info h1 span {
+    font-size: 34px;
+  }
+}
 @media screen and (max-width: 875px) {
-  .header-tel .connection p {
+  .header-tel .connection .tel-numbers p {
     justify-content: center;
+  }
+  .header .header-info {
+    background-image: url(../images/bus);
+  }
+  .header .header-info h1::before {
+    right: -26px;
+  }
+  .header .header-info p {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 560px) {
+  .menu-mob {
+    display: none;
+  }
+}
+@media screen and (max-width: 560px) {
+  .header-tel {
+    display: none;
+  }
+  .menu-mob {
+    margin-top: 46px;
+    padding: 18px 0 18px 27px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .menu-mob span {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+  }
+  .header nav {
+    display: none;
+  }
+  .header .header-info {
+    padding-top: 335px;
+    background-position-y: top;
+    background-size: 80%;
+    background-image: url(../images/bus.svg);
+  }
+  .header .header-info h1 {
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.48px;
+    padding-left: 25px;
+  }
+  .header .header-info h1 span {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  .header .header-info h1::before {
+    width: 0;
+  }
+  .header .header-info p {
+    display: none;
+  }
+  .header .header-info button {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .header .header-info {
+    background-position-y: 30%;
   }
 }
 .footer {
@@ -179,6 +273,40 @@ body a {
   font-family: "Roboto", sans-serif;
 }
 
+@media screen and (max-width: 560px) {
+  .footer {
+    padding: 24px 0;
+  }
+  .footer .info {
+    flex-wrap: wrap;
+    padding-bottom: 36px;
+    gap: 36px;
+  }
+  .footer .info .logo-button {
+    flex-basis: 100%;
+  }
+  .footer .info .logo-button img {
+    height: 100px;
+  }
+  .footer .info .logo-button h2 {
+    margin-bottom: 24px;
+  }
+  .footer .info nav {
+    gap: 12px;
+  }
+  .footer .info nav a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+  .footer .info .social {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-right: 0;
+    max-width: 110px;
+  }
+}
 .cooperation {
   margin: 160px 0;
   text-align: center;
@@ -289,6 +417,7 @@ body a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  row-gap: 60px;
 }
 .advantages .advantages-items .advantage {
   max-width: 460px;
@@ -449,4 +578,213 @@ body a {
 }
 .faq .questions .reverse {
   flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 875px) {
+  .cooperation h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .cooperation h3 {
+    font-size: 28px;
+    line-height: 44px;
+  }
+  .background-benefits-cooperation .benefits-cooperation {
+    padding: 40px 0 80px;
+  }
+  .background-benefits-cooperation .benefits-cooperation h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+  .background-benefits-cooperation .benefits-cooperation .benefits .benefit img {
+    top: -25%;
+  }
+  .advantages {
+    margin: 80px 0 80px;
+  }
+  .connect {
+    padding: 50px 0;
+  }
+  .faq h2 {
+    margin-bottom: 50px;
+  }
+  .faq .questions .question {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .cooperation {
+    margin: 80px 0;
+  }
+  .cooperation h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.32px;
+  }
+  .cooperation h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 24px;
+    letter-spacing: 0.32px;
+  }
+  .cooperation .steps {
+    margin-bottom: 40px;
+    gap: 40px;
+  }
+  .cooperation .steps .step {
+    max-width: 130px;
+    justify-content: flex-start;
+    gap: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+  .cooperation .steps .step img {
+    height: 120px;
+  }
+  .cooperation .steps .step p {
+    line-height: 18px;
+  }
+  .background-benefits-cooperation {
+    background-image: url(../images/Ellipse.png), linear-gradient(180deg, rgb(17, 33, 82) 50%, rgb(255, 255, 255) 50%);
+    background-size: 651px;
+    background-position-y: 40%;
+  }
+  .background-benefits-cooperation .benefits-cooperation {
+    padding: 24px 0 0;
+  }
+  .background-benefits-cooperation .benefits-cooperation h2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  .background-benefits-cooperation .benefits-cooperation .benefits {
+    padding-top: 107px;
+    row-gap: 70px;
+  }
+  .background-benefits-cooperation .benefits-cooperation .benefits .benefit {
+    max-width: 170px;
+  }
+  .background-benefits-cooperation .benefits-cooperation .benefits .benefit img {
+    height: 80px;
+    top: -15%;
+  }
+  .background-benefits-cooperation .benefits-cooperation .benefits .benefit h3 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    font-weight: 600;
+    padding: 50px 16px 0;
+  }
+  .background-benefits-cooperation .benefits-cooperation .benefits .benefit p {
+    line-height: 20px;
+    padding: 16px;
+  }
+  .advantages h2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 24px;
+  }
+  .advantages .advantages-items {
+    flex-wrap: nowrap;
+  }
+  .advantages .advantages-items .advantage {
+    max-width: 146px;
+  }
+  .advantages .advantages-items .advantage .number {
+    display: none;
+  }
+  .advantages .advantages-items .advantage img {
+    max-width: 140px;
+  }
+  .advantages .advantages-items .advantage h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.28px;
+    margin-bottom: 6px;
+  }
+  .connect {
+    padding: 24px 0;
+  }
+  .connect h2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+  }
+  .connect p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 16px 0 24px;
+  }
+  .connect .form {
+    padding: 24px 13px;
+  }
+  .connect .form h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  .connect .form p {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 0 24px;
+  }
+  .connect .form form input,
+  .connect .form form textarea {
+    padding: 10px 42px 10px 36px;
+    font-size: 12px;
+    line-height: 18px;
+    border-width: 1px;
+  }
+  .connect .form form .personal-data {
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .connect .form form .personal-data label {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .connect .form form .submit {
+    padding: 10px 0;
+  }
+  .faq {
+    padding: 80px 0;
+  }
+  .faq h2 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 40px;
+  }
+  .faq .questions .question {
+    flex-wrap: nowrap;
+    gap: 0px;
+  }
+  .faq .questions .question img {
+    max-width: 140px;
+    z-index: -2;
+  }
+  .faq .questions .question h3 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .faq .questions .question h3::before {
+    top: -2px;
+    left: -42px;
+    height: 30px;
+    width: 337px;
+  }
+  .faq .questions .question p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .faq .questions .question h3::before {
+    width: 205px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -12,6 +12,7 @@
 
     .tel-numbers {
       display: flex;
+      flex-direction: column;
       flex-wrap: wrap;
       row-gap: 10px;
 
@@ -96,8 +97,101 @@
   }
 }
 
+@media screen and (max-width: 1270px) {
+  .header {
+    .header-info {
+      background-size: 45%;
+      background-position-y: center;
+
+      h1 {
+        span {
+          font-size: 34px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 875px) {
-  .header-tel .connection p {
+  .header-tel .connection .tel-numbers p {
     justify-content: center;
+  }
+
+  .header .header-info {
+    background-image: url(../images/bus);
+    h1::before {
+      right: -26px;
+    }
+    p {
+      font-size: 25px;
+    }
+  }
+}
+
+@media screen and (min-width: 560px) {
+  .menu-mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header-tel {
+    display: none;
+  }
+
+  .menu-mob {
+    margin-top: 46px;
+    padding: 18px 0 18px 27px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    span {
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 32px;
+      letter-spacing: 0.48px;
+    }
+  }
+
+  .header {
+    nav {
+      display: none;
+    }
+
+    .header-info {
+      padding-top: 335px;
+      background-position-y: top;
+      background-size: 80%;
+      background-image: url(../images/bus.svg);
+
+      h1 {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.48px;
+        padding-left: 25px;
+        span {
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.32px;
+        }
+      }
+
+      h1::before {
+        width: 0;
+      }
+
+      p {
+        display: none;
+      }
+      button {
+        margin-top: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .header .header-info {
+    background-position-y: 30%;
   }
 }

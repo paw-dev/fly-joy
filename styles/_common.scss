@@ -36,3 +36,26 @@ body {
     text-decoration: none;
   }
 }
+
+@media (max-width: 560px) {
+  body {
+    .container {
+      padding: 0 16px;
+      max-width: 560px;
+    }
+
+    header .background {
+      background-color: $yellow-color;
+    }
+
+    button {
+      font-size: 14px;
+      height: 36px;
+      margin: 0 auto;
+    }
+    p {
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}

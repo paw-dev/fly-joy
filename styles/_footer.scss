@@ -55,9 +55,49 @@
       margin-right: 134px;
     }
   }
-
   p {
     color: $white-color;
     font-family: $copyright-font;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .footer {
+    padding: 24px 0;
+    .info {
+      flex-wrap: wrap;
+      padding-bottom: 36px;
+      gap: 36px;
+
+      .logo-button {
+        flex-basis: 100%;
+
+        img {
+          height: 100px;
+        }
+
+        h2 {
+          margin-bottom: 24px;
+        }
+      }
+
+      nav {
+        gap: 12px;
+
+        a {
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 18px;
+        }
+      }
+
+      .social {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 24px;
+        margin-right: 0;
+        max-width: 110px;
+      }
+    }
   }
 }
