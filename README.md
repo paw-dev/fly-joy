@@ -1,4 +1,4 @@
-# Fly Joy – Travel Ticket Booking Website (First Version)
+# Fly&Joy – Travel Ticket Booking Website (First Version)
 
 This project was originally created for a travel agency as part of my frontend developer training.  
 It represents the **first version** of a real-world ticket booking website.
